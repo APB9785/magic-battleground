@@ -58,7 +58,7 @@ config :magic_battleground, MagicBattlegroundWeb.Endpoint,
     patterns: [
       ~r"priv/static/(?!uploads/).*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/magic_battleground_web/(controllers|live|components)/.*(ex|heex)$"
+      ~r"lib/magic_battleground_web/(controllers|live|components|styles)/.*(ex|heex|neex)$"
     ]
   ]
 
@@ -80,3 +80,8 @@ config :phoenix_live_view, :debug_heex_annotations, true
 
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false
+
+# Adds dev mode stylesheet annotations for client IDEs and expands stylsheets visually
+config :live_view_native_stylesheet,
+  annotations: true,
+  pretty: true

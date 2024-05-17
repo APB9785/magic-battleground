@@ -58,12 +58,29 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
-# Use Jason for JSON parsing in Phoenix
-config :phoenix, :json_library, Jason
-
 config :ecsx,
   tick_rate: 20,
   manager: MagicBattleground.Manager
+
+config :live_view_native,
+  plugins: [LiveViewNative.SwiftUI]
+
+config :live_view_native_stylesheet,
+  content: [
+    swiftui: ["lib/**/*swiftui*"]
+  ],
+  output: "priv/static/assets"
+
+config :phoenix,
+  json_library: Jason,
+  template_engines: [neex: LiveViewNative.Engine]
+
+config :phoenix_template, :format_encoders, swiftui: Phoenix.HTML.Engine
+
+config :mime, :types, %{
+  "text/swiftui" => ["swiftui"],
+  "text/styles" => ["styles"]
+}
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

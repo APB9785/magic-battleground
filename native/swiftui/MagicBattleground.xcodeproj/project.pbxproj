@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01578069D1C34D9D77B1482F /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = 695A70B46D6B655F6960B990 /* LiveViewNativeLiveForm */; };
+		0827BF94CBD6EEDE8C4193AC /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9C65A5E2020B6D3CC3EB9 /* DisconnectedView.swift */; };
+		0D2A3456180515D87304E7C4 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD500D3D06F86909263B7 /* ConnectingView.swift */; };
+		0D3EC4A019EFC1EFEA21CF0D /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD500D3D06F86909263B7 /* ConnectingView.swift */; };
+		1AF38DC025E7D62F8B83A3F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D99D938E79C6FCB1E3141C /* ContentView.swift */; };
+		23B3DB75BC9E68A2F6F381CE /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = 1712C22A6B46BFD1F2FAE6A9 /* LiveViewNativeLiveForm */; };
+		473B74DAFD9A04B8460FEC78 /* MagicBattleground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267C7CCD74288F81EA27AE0 /* MagicBattleground.swift */; };
+		49130D4D93B8E5A2DB4ED017 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 8FB27C5137A705925A18B9B5 /* LiveViewNative */; };
+		4F18BAFD6119D0C545FDC709 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF751C5706777260FB401A5 /* ErrorView.swift */; };
+		5D1E1755307DD493109BFD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6BDA994A99D10314C51538 /* Assets.xcassets */; };
+		915E3EA67EF0CEB9E47A0688 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E12E78844247E495E61CBC /* Preview Assets.xcassets */; };
+		AC1AF2B9915996AA6DD1273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6BDA994A99D10314C51538 /* Assets.xcassets */; };
+		B63D820D902F09ED37F0DAFE /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0DFF604602AD1082CBB2BD /* ReconnectingView.swift */; };
+		B9B479EFF2E45E5A7E9FDD45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D99D938E79C6FCB1E3141C /* ContentView.swift */; };
+		C05FF87DB8648381CF3E148A /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = EFFD08EB97FFB204EC53CCA0 /* LiveViewNative */; };
+		D07192BBDD09F80EA96301BF /* MagicBattleground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267C7CCD74288F81EA27AE0 /* MagicBattleground.swift */; };
+		EA1CFE564B248AF5636A40E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E12E78844247E495E61CBC /* Preview Assets.xcassets */; };
+		EA993681966C58A2D7E87F04 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9C65A5E2020B6D3CC3EB9 /* DisconnectedView.swift */; };
+		F19DA10EB9FFA3492D0031EC /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0DFF604602AD1082CBB2BD /* ReconnectingView.swift */; };
+		F83A49C1AFA80218800CF0DD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF751C5706777260FB401A5 /* ErrorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D99D938E79C6FCB1E3141C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		213EA5E9A61FA36E4E1A929D /* MagicBattleground Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MagicBattleground Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E12E78844247E495E61CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4267C7CCD74288F81EA27AE0 /* MagicBattleground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBattleground.swift; sourceTree = "<group>"; };
+		B0534E879F7612874259079E /* MagicBattleground.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MagicBattleground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF751C5706777260FB401A5 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		C6C9C65A5E2020B6D3CC3EB9 /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		DB6BDA994A99D10314C51538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45FD500D3D06F86909263B7 /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		FF0DFF604602AD1082CBB2BD /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087D2CD875793A5D88CC8253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05FF87DB8648381CF3E148A /* LiveViewNative in Frameworks */,
+				01578069D1C34D9D77B1482F /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8737D4D17C0E2ECBE11EC440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49130D4D93B8E5A2DB4ED017 /* LiveViewNative in Frameworks */,
+				23B3DB75BC9E68A2F6F381CE /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F76B17446C37AEB1EDC5DEE = {
+			isa = PBXGroup;
+			children = (
+				FE9046AE9FD2CBB1A32EE8B2 /* MagicBattleground */,
+				5C3737183F3F34970B524F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42AB4EF770042D353579F794 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29E12E78844247E495E61CBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C3737183F3F34970B524F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213EA5E9A61FA36E4E1A929D /* MagicBattleground Watch App.app */,
+				B0534E879F7612874259079E /* MagicBattleground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9046AE9FD2CBB1A32EE8B2 /* MagicBattleground */ = {
+			isa = PBXGroup;
+			children = (
+				42AB4EF770042D353579F794 /* Preview Content */,
+				DB6BDA994A99D10314C51538 /* Assets.xcassets */,
+				F45FD500D3D06F86909263B7 /* ConnectingView.swift */,
+				03D99D938E79C6FCB1E3141C /* ContentView.swift */,
+				C6C9C65A5E2020B6D3CC3EB9 /* DisconnectedView.swift */,
+				BDF751C5706777260FB401A5 /* ErrorView.swift */,
+				4267C7CCD74288F81EA27AE0 /* MagicBattleground.swift */,
+				FF0DFF604602AD1082CBB2BD /* ReconnectingView.swift */,
+			);
+			path = MagicBattleground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB76C764E7C607A5804C397 /* MagicBattleground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3842E6F1BF271AEF184293 /* Build configuration list for PBXNativeTarget "MagicBattleground" */;
+			buildPhases = (
+				5E81675299A0F453E9291511 /* Sources */,
+				0D561BF41471B367B253C45B /* Resources */,
+				087D2CD875793A5D88CC8253 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicBattleground;
+			packageProductDependencies = (
+				EFFD08EB97FFB204EC53CCA0 /* LiveViewNative */,
+				695A70B46D6B655F6960B990 /* LiveViewNativeLiveForm */,
+			);
+			productName = MagicBattleground;
+			productReference = B0534E879F7612874259079E /* MagicBattleground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69FC771C112DBE5A80EDEE84 /* MagicBattleground Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D065CED6F014C8B7E2581F5F /* Build configuration list for PBXNativeTarget "MagicBattleground Watch App" */;
+			buildPhases = (
+				D3C325EDFD56B8C598E9E9C0 /* Sources */,
+				64FE93E87530001CAC1B8E95 /* Resources */,
+				8737D4D17C0E2ECBE11EC440 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MagicBattleground Watch App";
+			packageProductDependencies = (
+				8FB27C5137A705925A18B9B5 /* LiveViewNative */,
+				1712C22A6B46BFD1F2FAE6A9 /* LiveViewNativeLiveForm */,
+			);
+			productName = "MagicBattleground Watch App";
+			productReference = 213EA5E9A61FA36E4E1A929D /* MagicBattleground Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7287C54B4CAD2E1A9836110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 41B6C490CD6A7BF853044958 /* Build configuration list for PBXProject "MagicBattleground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1F76B17446C37AEB1EDC5DEE;
+			packageReferences = (
+				B2EF026B79EE6FE93FE87441 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				6D2B102AA4F8B70ACFD80FF8 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB76C764E7C607A5804C397 /* MagicBattleground */,
+				69FC771C112DBE5A80EDEE84 /* MagicBattleground Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D561BF41471B367B253C45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1E1755307DD493109BFD92 /* Assets.xcassets in Resources */,
+				915E3EA67EF0CEB9E47A0688 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FE93E87530001CAC1B8E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1AF2B9915996AA6DD1273E /* Assets.xcassets in Resources */,
+				EA1CFE564B248AF5636A40E3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E81675299A0F453E9291511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3EC4A019EFC1EFEA21CF0D /* ConnectingView.swift in Sources */,
+				1AF38DC025E7D62F8B83A3F3 /* ContentView.swift in Sources */,
+				0827BF94CBD6EEDE8C4193AC /* DisconnectedView.swift in Sources */,
+				F83A49C1AFA80218800CF0DD /* ErrorView.swift in Sources */,
+				D07192BBDD09F80EA96301BF /* MagicBattleground.swift in Sources */,
+				B63D820D902F09ED37F0DAFE /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C325EDFD56B8C598E9E9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2A3456180515D87304E7C4 /* ConnectingView.swift in Sources */,
+				B9B479EFF2E45E5A7E9FDD45 /* ContentView.swift in Sources */,
+				EA993681966C58A2D7E87F04 /* DisconnectedView.swift in Sources */,
+				4F18BAFD6119D0C545FDC709 /* ErrorView.swift in Sources */,
+				473B74DAFD9A04B8460FEC78 /* MagicBattleground.swift in Sources */,
+				F19DA10EB9FFA3492D0031EC /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41C87058DA8CB3DB4E8F96CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MagicBattleground.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		996F8BD152497CD613F1EDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MagicBattleground;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.MagicBattleground;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C3F3660690F5698254BC75E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MagicBattleground;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		CB7703F7172F813902E623E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MagicBattleground;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		F5DBE3ABBA7DF6EB7DD72209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MagicBattleground;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.MagicBattleground;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		FB1958531A7CACB251720886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MagicBattleground.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B6C490CD6A7BF853044958 /* Build configuration list for PBXProject "MagicBattleground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996F8BD152497CD613F1EDAA /* Debug */,
+				F5DBE3ABBA7DF6EB7DD72209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB3842E6F1BF271AEF184293 /* Build configuration list for PBXNativeTarget "MagicBattleground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7703F7172F813902E623E0 /* Debug */,
+				C3F3660690F5698254BC75E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D065CED6F014C8B7E2581F5F /* Build configuration list for PBXNativeTarget "MagicBattleground Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C87058DA8CB3DB4E8F96CC /* Debug */,
+				FB1958531A7CACB251720886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D2B102AA4F8B70ACFD80FF8 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B2EF026B79EE6FE93FE87441 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.3.0-rc.1";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1712C22A6B46BFD1F2FAE6A9 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D2B102AA4F8B70ACFD80FF8 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		695A70B46D6B655F6960B990 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D2B102AA4F8B70ACFD80FF8 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		8FB27C5137A705925A18B9B5 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2EF026B79EE6FE93FE87441 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		EFFD08EB97FFB204EC53CCA0 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2EF026B79EE6FE93FE87441 /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D7287C54B4CAD2E1A9836110 /* Project object */;
+}
